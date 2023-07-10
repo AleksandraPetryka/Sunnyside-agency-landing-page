@@ -1,0 +1,52 @@
+.attribution {
+    font-size: 11px;
+    text-align: right;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+header {
+    background-image: url("../images/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo-header {
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.btn {
+    font-family: "Fraunces" , serif;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+li {
+    all: unset;
+}
+.menu-items {
+    font-family: Barlow;
+    color: white;
+}
+.menu {
+    display: flex;
+    padding: 10px 0 25px;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+* {
+    margin: 0;
+}
+a {
+    all: unset;
+    padding: 15px 30px;
+}
+nav {
+    max-width: 100%;
+    padding: 45px 45px;
+}
