@@ -16,6 +16,9 @@ nav {
     .hamburger {
         display: none;
     }
+    .menu-items a {
+        padding: 15px 30px;
+    }
     header h1 {
         font-size: 48px;
         padding: 64px 0;
@@ -98,6 +101,34 @@ nav {
     .hamburger {
         display: block;
         cursor: pointer;
+    }
+    .menu-items {
+        display: none;
+        background-color: white;
+        position: absolute;
+        padding: 35px;
+        list-style: none;
+        flex-direction: column;
+        width: 65%;
+        left: 10%;
+        top: 15%;
+        gap: 30px;
+    }
+    a.btn {
+        background-color: hsl(51, 100%, 49%);
+        padding: 15px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .menu-items a {
+        display: list-item;
+        text-align: center;
+    }
+    .menu-items li  a {
+        color: hsl(232, 10%, 55%);
     }
     header h1 {
         font-size: 32px;
@@ -184,7 +215,6 @@ a {
     cursor: pointer;
 }
 .menu-items a {
-    padding: 15px 30px;
     color: hsl(212, 27%, 19%);
 }
 a.btn:hover {
