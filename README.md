@@ -10,7 +10,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -39,38 +38,9 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Sass
-- [Styled Components](https://styled-components.com/) - For styles
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```css
-img {
-  margin: 0 auto;
-}
-```
-
-```js
-function changeMenuVisibility() {
-  let menuItems = document.getElementById("menu-items");
-  if (menuItems.style.display === "") {
-    menuItems.style.display = "flex";
-  }
-  else if (menuItems.style.display === "none") {
-    menuItems.style.display = "flex";
-  }
-  else {
-    menuItems.style.display = "none";
-  }
-}
-```
 
 ## Author
 
